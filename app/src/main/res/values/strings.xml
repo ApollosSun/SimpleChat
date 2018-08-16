@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SimpleChat</string>
+    <string name="type_a_message">Type a message ...</string>
+    <string name="btn_continue">Continue</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_the_room">Enter the name of the room</string>
+    <string name="no_Internet_message">No Internet connection. Connect and retry.</string>
+    <string name="retry">Retry</string>
+    <string name="name">Name</string>
+    <string name="room">Room</string>
+</resources>
