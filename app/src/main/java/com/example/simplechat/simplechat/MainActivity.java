@@ -15,18 +15,18 @@ public class MainActivity extends AppCompatActivity {
     EditText userName;
 
     @Override
-    protected void onResume() {
-        super.onResume();
-        checkInternet();
-    }
-
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         roomName = findViewById(R.id.et_room);
         userName = findViewById(R.id.et_name);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        checkInternet();
     }
 
     public void createRoom (View v){
